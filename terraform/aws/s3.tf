@@ -6,6 +6,7 @@ resource "aws_s3_bucket" "data" {
   bucket        = "my-bucket-835799"
   acl           = "public-read"
   force_destroy = true
+  
   tags = {
     git_commit           = "7615def883560bd6169d34d3cbe017b3e2a4cce7"
     git_file             = "terraform/aws/s3.tf"
