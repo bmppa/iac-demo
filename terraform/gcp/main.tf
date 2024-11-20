@@ -29,5 +29,7 @@ resource "google_storage_bucket" "my-bucket" {
     git_org              = "bmppa"
     git_repo             = "iac-demo"
     yor_trace            = "508a085e-51db-4b56-9177-c62fec5b31cd"
+    Privacy              = ""
+    yor_name             = "my-bucket"
   }
 }
